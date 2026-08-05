@@ -1,0 +1,25 @@
+[project]
+name = "voice-cloning-tts"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "numpy",
+    "torch",
+    "torchaudio",
+    "soundfile",
+    "pocket-tts",
+    "websockets",
+    "huggingface_hub",
+]
+
+# Extra dependencies used only by the scripts in examples/ (not by the server).
+# Install with:  uv sync --group examples
+[dependency-groups]
+examples = [
+    "agentduet>=1.0.0b10",  # pre-release; the specifier enables pre-releases
+    "google-genai>=1.57.0",
+    "python-dotenv",
+]
+

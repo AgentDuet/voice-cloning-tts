@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets / local env
+.env
+.env.*
+
+# Model / HF cache
+hf-cache/
+
+# Registered voices (runtime data, bind-mounted from the container)
+/voices/
+
+# Example output
+out.wav

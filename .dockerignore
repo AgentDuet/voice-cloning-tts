@@ -1,0 +1,13 @@
+.git
+.gitignore
+__pycache__/
+*.pyc
+.venv/
+venv/
+voices/
+*.wav
+.env
+README.md
+.dockerignore
+Dockerfile
+hf-cache/
