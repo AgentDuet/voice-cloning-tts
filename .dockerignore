@@ -6,7 +6,8 @@ __pycache__/
 venv/
 voices/
 *.wav
-.env
+**/.env
+**/.env.*
 README.md
 .dockerignore
 Dockerfile
