@@ -1,0 +1,8 @@
+Voice Cloning TTS
+Copyright 2026 B3Networks Pte Ltd
+
+This product includes software developed at B3Networks Pte Ltd.
+
+The voice model, kyutai/pocket-tts, is not distributed with this software. It is downloaded
+from the Hugging Face Hub at run time and is licensed by Kyutai under the Creative Commons
+Attribution 4.0 International licence (CC-BY-4.0).
